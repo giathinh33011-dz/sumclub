@@ -1,0 +1,25 @@
+{
+  "name": "sumclub-ai-predictor",
+  "version": "1.0.0",
+  "description": "API dự đoán Tài Xỉu cho Sum Club sử dụng các thuật toán AI/Machine Learning.",
+  "main": "sumclub.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sumclub.js",
+    "dev": "node --watch sumclub.js"
+  },
+  "keywords": [
+    "fastify",
+    "taixiu",
+    "ai",
+    "predictor",
+    "sumclub"
+  ],
+  "author": "GiaThinhzZz",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "fastify": "^4.25.2",
+    "node-fetch": "^3.3.2"
+  }
+}
